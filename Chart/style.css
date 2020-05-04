@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 2rem 4rem 2rem;
+  border: 1.5px solid #333;
+  border-radius: 10px;
+}
+h2 {
+  text-align: center;
+}
+.list {
+  font-size: 20px;
+  margin: 3rem 2rem 0 2rem;
+}
+.list-item {
+  height: 40px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-add {
+  width: 30%;
+  height: 40px;
+  margin: 3rem 0 3rem 2rem;
+  background: #fff;
+  color: cornflowerblue;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-add:focus {
+  outline: none;
+}
+.delete-item {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+.list-item:nth-child(odd) {
+  background: #ddd;
+}
+.list-item:nth-child(even) {
+  background: #ccc;
+}
+.diagram-container {
+  display: flex;
+  height: 300px;
+  align-items: flex-end;
+}
+.column {
+  background-color: red;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-value {
+  width: 100%;
+}
+.column-group {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem;
+  text-align: center;
+  justify-content: flex-end;
+}
